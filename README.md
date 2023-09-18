@@ -33,7 +33,7 @@ ansible all -m ping
 - Pour cela, il faut créer un fichier playbook.yml dans le dossier /etc/ansible/ et y ajouter les lignes suivantes :
 ```
 - name: Apache serveur web
-  hosts: 192.168.232.135
+  hosts: <IP_MACHINE_CIBLE>
   become: yes
 
   tasks:
